@@ -1,0 +1,188 @@
+
+/*//////////////////////////////// Estilo index //////////////////////////////////
+*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  margin: 2% auto;
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  left: 20px;
+  font-size: 30px;
+  color:black;
+  text-decoration: none;
+
+}
+
+.and{
+  font-size: 20px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+}
+
+.nav-1 {
+  background: #333333;
+  padding: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  border-radius: 3px;
+}
+
+.nav-2 {
+  background: #A8A8A8;
+  padding: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadada;
+  border-radius: 3px;
+}
+
+.nav-1 a{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-1-rigth {
+  text-align: right;
+}
+
+.nav-a-blue {
+  color: #008cba;
+  text-decoration: none;
+}
+
+.imgIndex{
+  text-align: center;
+}
+
+.noLog {
+  /*border: 2px red dashed;*/
+  width: 700px;
+   
+  margin: 20px auto;
+  padding: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.noLog a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+/*//////////////////////////// Estilo inicio y páginas de la carpera ropa ///////////////////////////*/
+
+.navLateral{
+  font-size: 20px;
+  position: fixed;
+  left: -25px;
+  bottom: -7px;
+  float: left;
+  text-align: center;
+  width: 120px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  padding: 20px;
+  color: white;
+  box-shadow: 1px 1px 5px black,
+              inset 1px 1px 5px black;
+  margin: 15px;
+}
+
+.navLateral a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navLateral a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.contenedorProductos{
+  width: 85%;
+  float: right;
+}
+
+.listaImagenes img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 1px 5px black;   
+}
+
+.imgPantalon img {
+  width: 150px;
+  height: 200px;
+  box-shadow: 1px 1px 5px black;  
+}
+
+.listaProduct{
+  background-color: #EAF2F2;
+  padding: 25px;
+  display: inline-block;
+  width: 230px;
+  height: 285px;
+  float: left;
+}
+
+.listaProduct h5{
+  width: 220px;
+}
+
+.botonImg{
+  padding: 3px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btnModify{
+  background-color: antiquewhite;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.btnDelete{
+  background-color: cadetblue;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.paginacion {
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.paginacion a{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.paginacion a:hover{
+  font-weight: bold;
+  /*font-size: 24px;*/
+}
+
+.paginacion .paginaSeleccionada{
+  color: black;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+
